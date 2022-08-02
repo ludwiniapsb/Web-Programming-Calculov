@@ -1,0 +1,218 @@
+
+.header-text h1 {
+	color: black;
+}
+
+.header-image {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+@media (max-width: 37.5em) {
+  .article-header .header-image {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 50em) and (min-width: 37.5em) {
+  .article-header .header-image {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 50em) {
+  .article-header .header-image {
+    width: 47.14065%;
+    float: left;
+    margin-right: 5.7187%;
+  }
+}
+@media (max-width: 37.5em) {
+  .article-header .header-text {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 50em) and (min-width: 37.5em) {
+  /* line 24, ../sass/molecules/_article-header.scss */
+  .article-header .header-text {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 50em) {
+  .article-header .header-text {
+    width: 47.14065%;
+    float: left;
+    margin-right: 5.7187%;
+    float: right;
+    margin-right: 0;
+  }
+}
+.article-header {
+  width: 90%;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.article-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 37.5em) {
+  .article-header .header-image {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 50em) and (min-width: 37.5em) {
+  .article-header .header-image {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 50em) {
+  .article-header .header-image {
+    width: 47.14065%;
+    float: left;
+    margin-right: 5.7187%;
+  }
+}
+@media (max-width: 37.5em) {
+  .article-header .header-text {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 50em) and (min-width: 37.5em) {
+  .article-header .header-text {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 50em) {
+  .article-header .header-text {
+    width: 47.14065%;
+    float: left;
+    margin-right: 5.7187%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 50em) {
+  .article-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.blog-author {
+  font-family: "Poppins", Helvetica, sans-serif;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+@media (max-width: 37.5em) {
+  .blog-author {
+    font-size: 14px;
+  }
+}
+@media (max-width: 50em) and (min-width: 37.5em) {
+  .blog-author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 50em) {
+  .blog-author {
+    font-size: 14px;
+  }
+}
+
+.article-body .print-it {
+  font-size: 26px;
+}
+@media (max-width: 37.5em) {
+  .article-body .print-it {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 50em) and (min-width: 37.5em) {
+  .article-body .print-it {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 50em) {
+  .article-body .print-it {
+    margin-top: 3rem;
+  }
+}
+.article-body p {
+	font-family: courier;
+    width: 48%;
+	font-size: 18px;
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	color: #8c8c8c;
+}
+
+.satu p {
+	font-family: courier;
+    width: 50%;
+	font-size: 18px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	color: black;
+}
+
+.rasi img{
+	font-family: courier;
+	width: 80%;
+	padding-left: 275px;
+	padding-bottom: 50px;
+}
+
+.wrapper {
+
+	background-size: cover;
+
+}
+	
+
+.article-body p {
+	background-color: #f8f4f4;
+}
+
+.article-body {
+	background-size: cover;
+	padding-bottom: 50px;
+}
+@media (min-width: 50em)
+p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    line-height: 1.45;
+}
+p {
+    margin: 0 auto;
+}
